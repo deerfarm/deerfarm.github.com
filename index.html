@@ -1,65 +1,83 @@
-﻿<head>
-<title>DeerFarm</title>
-<style type="text/css">
-A:link {text-decoration:none}
-A:visited {text-decoration:none}
-A:hover {text-decoration:none}
-</style>
+!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Team DeerFarm</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body { background-color: #000; color: #fff; }
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .hero { padding: 4rem 0; text-align: center; }
+    .featured-img { transition: transform .3s ease; }
+    .featured-img:hover { transform: scale(1.05); }
+    .portfolio img { transition: transform .3s ease; }
+    .portfolio img:hover { transform: scale(1.05); }
+  </style>
 </head>
-<body bgcolor="black">
-<center>
-<img src="logo.jpg" />
-</center>
-<center>
-<!--
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W0oqt37A2xk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-<br>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <img src="logo.jpg" alt="DeerFarm Logo" class="img-fluid" style="max-width: 200px;" />
+    <h1 class="mt-3">Team DeerFarm</h1>
+    <p class="lead">2009 - 2025</p>
+  </header>
 
-Shikhondo2 - 개발중
+  <!-- Featured Game -->
+  <section class="container mb-5">
+    <div class="row">
+      <div class="col text-center">
+        <a href="https://store.steampowered.com/app/2712480/_/" target="_blank">
+          <img src="shikhondo_re.jpg" alt="Shikhondo: Yokai Rampage" class="img-fluid rounded featured-img" style="max-width:80%;" />
+        </a>
+      </div>
+    </div>
+  </section>
 
-<br>
-<br>
-<img src="statdeco.png"/>&nbsp;<img src="statdeco.png"/>
-<br>
-<br>
--->
-<font color="white">
-<br>
-<a target="_blank" a href="https://store.steampowered.com/app/2712480/_/">
-<img src="shikhondo_re.jpg" /> 
-<br>
-<br>
-<a target="_blank" a href="http://store.steampowered.com/app/720150/Shikhondo__Soul_Eater/">
-<img src="shikhondo_soulEater.jpg" /> 
-<br>
-<br>
-<br>
-<a target="_blank" a href="http://deerfarm.github.io/lovelive.html">
-<img src="lovebusters.jpg" />  
-</a>
-<a target="_blank" a href="http://deerfarm.github.io/lovelive.html">
-<img src="lb2.jpg" />  
-</a>
-<br>
-<a target="_blank" a href="https://www.youtube.com/watch?v=SlYsgRhcnB0">
-<img src="thex2.jpg" />
-</a>
-<a target="_blank" a href="https://www.youtube.com/watch?v=Q5J6Xinqa58">
-<img src="thex.jpg" />
-</a>
-<br>
-<a target="_blank" a href="http://deerfarm.github.io/prismpang.html">
-<img src="prismpang.jpg" />
-</a>
-<br>
-<br>
-<br>
-2009-2024 Team DeerFarm 
-<br>
-E-MAIL : bzerox7@gmail.com
-<br>
-Twitter : @teamdeerfarm
-</font>
-</center>
+  <!-- Portfolio Section -->
+  <main class="container portfolio">
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <a href="http://store.steampowered.com/app/720150/Shikhondo__Soul_Eater/" target="_blank">
+          <img src="shikhondo_soulEater.jpg" alt="Shikhondo: Soul Eater" class="img-fluid rounded" />
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <a href="http://deerfarm.github.io/lovelive.html" target="_blank">
+          <img src="lovebusters.jpg" alt="Love Busters" class="img-fluid rounded" />
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <a href="http://deerfarm.github.io/lovelive.html" target="_blank">
+          <img src="lb2.jpg" alt="Love Busters 2" class="img-fluid rounded" />
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <a href="https://www.youtube.com/watch?v=SlYsgRhcnB0" target="_blank">
+          <img src="thex2.jpg" alt="TheX2" class="img-fluid rounded" />
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <a href="https://www.youtube.com/watch?v=Q5J6Xinqa58" target="_blank">
+          <img src="thex.jpg" alt="TheX" class="img-fluid rounded" />
+        </a>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3 text-center">
+        <a href="http://deerfarm.github.io/prismpang.html" target="_blank">
+          <img src="prismpang.jpg" alt="PrismPang" class="img-fluid rounded" />
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Contact Footer -->
+  <footer class="text-center py-4">
+    <p>E-MAIL: <a href="mailto:bzerox7@gmail.com" class="text-light">bzerox7@gmail.com</a> | X: <a href="https://twitter.com/teamdeerfarm" class="text-light" target="_blank">@teamdeerfarm</a></p>
+  </footer>
+
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
